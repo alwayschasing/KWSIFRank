@@ -1,0 +1,103 @@
+nohup: ignoring input
+[I 19:51:55.148 NotebookApp] JupyterLab extension loaded from /search/odin/environment/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 19:51:55.148 NotebookApp] JupyterLab application directory is /search/odin/environment/anaconda3/share/jupyter/lab
+[I 19:51:55.152 NotebookApp] Serving notebooks from local directory: /search/odin/liruihong/keyword-project/SIFRank_zh
+[I 19:51:55.152 NotebookApp] The Jupyter Notebook is running at:
+[I 19:51:55.152 NotebookApp] http://10.141.202.61:1991/?token=eb30607ad5932a01513c1c4c55352f9393a22a7ee73be98e
+[I 19:51:55.152 NotebookApp]  or http://127.0.0.1:1991/?token=eb30607ad5932a01513c1c4c55352f9393a22a7ee73be98e
+[I 19:51:55.152 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:51:55.157 NotebookApp] No web browser found: could not locate runnable browser.
+[C 19:51:55.157 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/nbserver-18265-open.html
+    Or copy and paste one of these URLs:
+        http://10.141.202.61:1991/?token=eb30607ad5932a01513c1c4c55352f9393a22a7ee73be98e
+     or http://127.0.0.1:1991/?token=eb30607ad5932a01513c1c4c55352f9393a22a7ee73be98e
+[I 19:52:09.080 NotebookApp] 302 GET /?token=eb30607ad5932a01513c1c4c55352f9393a22a7ee73be98e (10.129.232.133) 0.88ms
+[I 19:52:12.268 NotebookApp] Kernel started: 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa
+[I 19:54:12.243 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:24:12.286 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:26:12.274 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:26:25.514 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:4908ee2793314fa09d319664013895af
+[I 20:26:25.827 NotebookApp] Kernel restarted: 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa
+[I 20:26:26.464 NotebookApp] Restoring connection for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:4908ee2793314fa09d319664013895af
+[I 20:26:26.464 NotebookApp] Replaying 5 buffered messages
+[I 20:26:40.638 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:4908ee2793314fa09d319664013895af
+[I 20:26:40.848 NotebookApp] Kernel restarted: 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa
+[I 20:26:41.405 NotebookApp] Restoring connection for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:4908ee2793314fa09d319664013895af
+[I 20:26:41.405 NotebookApp] Replaying 5 buffered messages
+[I 20:28:12.291 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:30:12.279 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:32:12.286 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:34:12.284 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:36:12.298 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:38:12.297 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:39:11.644 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:4908ee2793314fa09d319664013895af
+[I 20:39:14.156 NotebookApp] Kernel restarted: 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa
+[I 20:39:14.786 NotebookApp] Restoring connection for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:4908ee2793314fa09d319664013895af
+[I 20:39:14.786 NotebookApp] Replaying 6 buffered messages
+[I 20:40:12.297 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:42:12.305 NotebookApp] Saving file at /check_embedding.ipynb
+[I 20:42:13.624 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:4908ee2793314fa09d319664013895af
+[I 11:35:31.070 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:17:28.683 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:19:28.670 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:23:28.678 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:24:29.874 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:25:39.939 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:25:44.898 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:27:44.906 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:29:45.149 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:31:54.782 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:35:53.832 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:37:53.595 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:39:53.583 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:41:53.666 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:43:53.586 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:45:53.597 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:47:53.958 NotebookApp] Saving file at /check_embedding.ipynb
+[I 12:49:53.569 NotebookApp] Saving file at /check_embedding.ipynb
+[W 13:04:04.543 NotebookApp] WebSocket ping timeout after 119912 ms.
+[I 15:24:41.438 NotebookApp] Saving file at /check_embedding.ipynb
+[I 15:26:41.378 NotebookApp] Saving file at /check_embedding.ipynb
+[I 15:32:41.602 NotebookApp] Saving file at /check_embedding.ipynb
+[I 15:34:41.453 NotebookApp] Saving file at /check_embedding.ipynb
+[I 15:36:41.554 NotebookApp] Saving file at /check_embedding.ipynb
+[I 15:38:41.462 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:14:41.433 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:32:41.469 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:34:41.469 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:36:41.437 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:38:41.481 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:40:41.499 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:42:41.460 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:44:41.474 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:46:41.612 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:48:41.503 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:50:41.457 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:52:41.453 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:54:41.453 NotebookApp] Saving file at /check_embedding.ipynb
+[I 16:56:41.448 NotebookApp] Saving file at /check_embedding.ipynb
+[W 18:34:20.548 NotebookApp] WebSocket ping timeout after 119986 ms.
+[I 19:41:24.098 NotebookApp] Saving file at /check_embedding.ipynb
+[I 19:41:40.255 NotebookApp] Kernel restarted: 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa
+[I 19:43:24.040 NotebookApp] Saving file at /check_embedding.ipynb
+[W 21:23:40.840 NotebookApp] WebSocket ping timeout after 119975 ms.
+[I 21:23:45.844 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[I 11:28:48.642 NotebookApp] Restoring connection for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[I 11:49:49.619 NotebookApp] Saving file at /check_embedding.ipynb
+[W 13:00:48.645 NotebookApp] WebSocket ping timeout after 119946 ms.
+[I 13:00:53.649 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[I 14:25:37.269 NotebookApp] Restoring connection for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[W 20:09:37.269 NotebookApp] WebSocket ping timeout after 119985 ms.
+[I 20:09:42.271 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[I 20:19:34.146 NotebookApp] Restoring connection for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[W 20:34:04.150 NotebookApp] WebSocket ping timeout after 119981 ms.
+[I 20:34:09.154 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[I 20:34:29.477 NotebookApp] Restoring connection for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[W 20:52:29.479 NotebookApp] WebSocket ping timeout after 119986 ms.
+[I 20:52:34.480 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[I 11:00:37.761 NotebookApp] Restoring connection for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42
+[W 11:02:07.762 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 11:02:12.765 NotebookApp] Starting buffering for 7de9e0dd-76e4-4a7d-88ea-9eb168864eaa:075e8ecf0f764632826a8ba533c79a42

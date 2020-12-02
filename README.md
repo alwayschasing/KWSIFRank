@@ -1,10 +1,5 @@
-# SIFRank_zh
-这是我们论文的相关代码 [SIFRank: A New Baseline for Unsupervised Keyphrase Extraction Based on Pre-trained Language Model](https://ieeexplore.ieee.org/document/8954611)
-原文是在对英文关键短语进行抽取，这里迁移到中文上，部分pipe进行了改动。英文原版在[这里](https://github.com/sunyilgdx/SIFRank)。
-
-## 版本介绍
-* 2020/03/03——``最初版本``
-本版本中只包含了最基本的功能，部分细节还有待优化和扩充。
+# KWSIFRank
+论文 [SIFRank: A New Baseline for Unsupervised Keyphrase Extraction Based on Pre-trained Language Model](https://ieeexplore.ieee.org/document/8954611)
 
 ## 核心算法
 ### 预训练模型ELMo+句向量模型SIF
@@ -56,7 +51,6 @@ if output_layer == -1:
      payload = data[output_layer]
 ```
 
-
 ## 下载
 * 哈工大ELMo ``zhs.model`` 请从[这里](https://github.com/HIT-SCIR/ELMoForManyLangs) 下载,将其解压保存到 ``auxiliary_data/``目录下（注意要按照其要求更改config文件），本项目中已经将部分文件上传了，其中比较大的模型文件``encoder.pkl``和``token_embedder.pkl``请自行添加。
 * 清华分词工具包THULAC ``thulac.models`` 请从[这里](http://thulac.thunlp.org/)下载, 将其解压保存到 ``auxiliary_data/``目录下。
@@ -79,69 +73,8 @@ elmo_layers_weight = [0.5, 0.5, 0.0]
 text = "计算机科学与技术（Computer Science and Technology）是国家一级学科，下设信息安全、软件工程、计算机软件与理论、计算机系统结构、计算机应用技术、计算机技术等专业。 [1]主修大数据技术导论、数据采集与处理实践（Python）、Web前/后端开发、统计与数据分析、机器学习、高级数据库系统、数据可视化、云计算技术、人工智能、自然语言处理、媒体大数据案例分析、网络空间安全、计算机网络、数据结构、软件工程、操作系统等课程，以及大数据方向系列实验，并完成程序设计、数据分析、机器学习、数据可视化、大数据综合应用实践、专业实训和毕业设计等多种实践环节。"
 keyphrases = SIFRank(text, SIF, zh_model, N=15,elmo_layers_weight=elmo_layers_weight)
 keyphrases_ = SIFRank_plus(text, SIF, zh_model, N=15, elmo_layers_weight=elmo_layers_weight)
-```
-## 用例展示
-我们选取了一段百度百科中关于“计算机科学与技术”的描述作为被抽取对象（如下），用Top10来观察其效果。
-> text = "计算机科学与技术（Computer Science and Technology）是国家一级学科，下设信息安全、软件工程、计算机软件与理论、计算机系统结构、计算机应用技术、计算机技术等专业。 [1]主修大数据技术导论、数据采集与处理实践（Python）、Web前/后端开发、统计与数据分析、机器学习、高级数据库系统、数据可视化、云计算技术、人工智能、自然语言处理、媒体大数据案例分析、网络空间安全、计算机网络、数据结构、软件工程、操作系统等课程，以及大数据方向系列实验，并完成程序设计、数据分析、机器学习、数据可视化、大数据综合应用实践、专业实训和毕业设计等多种实践环节。"
-* SIFRank_zh抽取结果
-```
-关键词         权重
-大数据技术导论  0.9346
-计算机软件      0.9211
-计算机系统结构  0.9182
-高级数据库系统  0.9022
-计算机网络      0.8998
-媒体大数据案例  0.8997
-数据结构       0.8971
-软件工程       0.8955
-大数据         0.8907
-计算机技术     0.8838
-```
-* SIFRank+_zh抽取结果
-```
-关键词         权重
-计算机软件       0.9396
-计算机科学与技术  0.9286
-计算机系统结构    0.9245
-大数据技术导论    0.9222
-软件工程         0.9213
-信息             0.8787
-计算机技术       0.8778
-高级数据库系统    0.8770
-computer        0.8717
-媒体大数据案例    0.8687
-```
-* jieba分词TFIDF抽取结果
-```
-关键词         权重
-数据         0.8808
-可视化       0.5891
-技术         0.3726
-机器         0.3496
-毕业设计     0.3369
-专业         0.3260
-网络空间     0.3235
-数据库系统   0.2983
-数据结构     0.2801
-计算技术     0.2738
-```
-* jieba分词TextRank抽取结果
-```
-关键词         权重
-数据        1.0000
-技术        0.4526
-可视化      0.3170
-计算机系统  0.2488
-机器        0.2420
-结构        0.2371
-计算机      0.2365
-专业        0.2121
-网络空间    0.2103
-计算技术    0.1954
-```
 
 ## 分析
-我们的SIFRank和SIFRank+采用了动态预训练词向量模型ELMo和句向量模型SIF，用完全无监督的方法进行关键短语（keyphrase）的抽取，相比于jieba的TFIDF和TextRank算法，不仅抽取的关键词更加完整，且由于引入了预训练的知识，关键词之间的关系更为丰富，不再仅限于句子结构本身。
-
+SIFRank和SIFRank+采用了动态预训练词向量模型ELMo和句向量模型SIF，用完全无监督的方法进行关键短语（keyphrase）的抽取，相比于jieba的TFIDF和TextRank算法，不仅抽取的关键词更加完整，且由于引入了预训练的知识，关键词之间的关系更为丰富，不再仅限于句子结构本身。
 此外，清华的分词模型支持自定义用户词典，可以保持专有名词的完整性，并且通过ELMo的CNN编码层，对专有名词的识别和编码效果会更好。
 
