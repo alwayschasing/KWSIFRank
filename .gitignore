@@ -2,6 +2,7 @@
 log*
 /test/*
 *__pycache__/*
+*/__pycache__/*
 /auxiliary_data/thulac.models/
 /auxiliary_data/zhs.model/
 check*
